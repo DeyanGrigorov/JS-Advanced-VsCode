@@ -1,14 +1,11 @@
-function gcd(a, b){
-    while (b != 0){
-        const temp = b;
-        b = a % b;
-        a = temp;
-
-    }
-    return a;
+function gcd(a, b) {
+  while (b != 0) {
+    const temp = b;
+    b = a % b;
+    a = temp;
+  }
+  return a;
 }
-
-
 
 // function gcd(a, b){
 //     while (a != b){
@@ -21,4 +18,4 @@ function gcd(a, b){
 //     return a;
 // }
 
-console.log(gcd(2154, 458))
+console.log(gcd(2154, 458));
