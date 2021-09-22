@@ -24,13 +24,6 @@ function TimeToWalk(arg1, arg2, arg3) {
       timeSec
   );
 
-  if (timeHr < 10) {
-    console.log(timeHr + "0:" + (timeMin + rest) + ":" + timeSec);
-  } else {
-    console.log(timeHr + ":" + (timeMin + rest) + ":" + timeSec);
-  }
-
-
 }
 
 TimeToWalk(4000, 0.6, 5);
